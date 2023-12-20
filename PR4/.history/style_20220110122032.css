@@ -1,0 +1,40 @@
+section div {
+    height: 200px;
+    width: 200px;
+}
+
+#div1 {
+    background-color: aqua;
+}
+
+#div2 {
+    background-color: yellow;
+}
+
+#div3 {
+    background-color: blue;
+}
+
+#div4 {
+    background-color: green;
+}
+
+#div5 {
+    background-color: grey;
+}
+
+#div6 {
+    background-color: maroon;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+#container {
+    display: flex;
+    background-color: lightgrey;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

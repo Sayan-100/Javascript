@@ -1,0 +1,9 @@
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form {
+    display: flex;
+    padding: 0px 100px;
+}

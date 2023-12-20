@@ -1,0 +1,13 @@
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+#name-of-section {
+    height: 400px;
+}
+
+#contact-form {
+    display: flex;
+    padding: 0px 100px;
+}

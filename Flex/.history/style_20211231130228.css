@@ -1,0 +1,35 @@
+    #container {
+        height: 75vh;
+        width: 75vw;
+        background-color: lightgrey;
+        display: flex;
+        /* default direction is row direction */
+        /* flex-direction: column; */
+        flex-direction: row;
+        /* flex-direction: row-reverse; */
+        /* flex-direction: column-reverse; */
+    }
+    
+    #container div {
+        height: 200px;
+        width: 200px;
+    }
+    
+    #div1 {
+        background-color: cyan;
+        /* default order is 0; */
+        order: 1;
+    }
+    
+    #div2 {
+        background-color: red;
+    }
+    
+    #div3 {
+        background-color: grey;
+        order: 6;
+    }
+    
+    #div4 {
+        background-color: orange;
+    }

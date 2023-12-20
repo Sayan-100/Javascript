@@ -1,0 +1,64 @@
+ #container {
+     /* height: 75vh; */
+     /* to handle the overflowing */
+     /* height: auto; */
+     height: 600px;
+     /* width: 75vw; */
+     width: 600px;
+     background-color: lightgrey;
+     display: flex;
+     /* default direction is row direction */
+     /* flex-direction: column;*/
+     flex-direction: row;
+     /* flex-direction: row-reverse; */
+     /* flex-direction: column-reverse; */
+     /* the height and width is adjusted due to the flex property
+       if we don't want that */
+     /*default wrap property is no wrap*/
+     /* flex-wrap: nowrap; */
+     /* flex-wrap: wrap; */
+     /* wrap in multiple lines */
+     /* flex-wrap: wrap-reverse; */
+     /*align items work perpendicular to the main axis*/
+     /* align-items: flex-start; */
+     /* align-items: flex-end; */
+     /* align-items: center; */
+     /* align-items: stretch; */
+     /* default value of align items is stretch */
+     /* it obeys the height and width property */
+     /* align-items: baseline; */
+     align-items: center;
+ }
+ 
+ #container div {
+     height: 100px;
+     width: 100px;
+     /* height: auto;
+     max-height: 400px;
+     width: 100px; */
+ }
+ 
+ #div1 {
+     background-color: cyan;
+     /* for align-items: baseline */
+     /* margin: 10px; */
+ }
+ 
+ #div2 {
+     background-color: red;
+     /* for align-items: baseline */
+     margin: 30px;
+ }
+ 
+ #div3 {
+     background-color: grey;
+     /* for align-items: basline */
+     margin: 50px;
+ }
+ /* #div4 {
+     background-color: orange;
+ }
+ 
+ #div5 {
+     background-color: maroon;
+ } */

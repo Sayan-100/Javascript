@@ -1,0 +1,30 @@
+#outer-div {
+    border: 2px solid black;
+    position: relative;
+}
+
+#div1 {
+    height: 200px;
+    width: 200px;
+    background-color: #393a7b;
+}
+
+#div2 {
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    /* position: relative;
+    left: 20px;
+    top: 20px; */
+    /* abselute position means posi with respect to the first parent element the outer div ---->the parent it's value should be set to relative then
+ it's valur should be relative; */
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+#div3 {
+    height: 200px;
+    width: 200px;
+    background-color: maroon;
+}

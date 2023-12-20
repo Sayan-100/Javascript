@@ -1,0 +1,9 @@
+#outer-div {
+    border: 2px solid black;
+}
+
+#div1 {
+    height: 200px;
+    width: 200px;
+    background-color: #393a7b;
+}

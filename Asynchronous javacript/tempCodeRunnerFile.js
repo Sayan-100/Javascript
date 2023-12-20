@@ -1,0 +1,1 @@
+Promise.resolve('Resolved').then(data => console.log(data));

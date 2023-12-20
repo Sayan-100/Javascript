@@ -1,0 +1,55 @@
+#container {
+    height: 500px;
+    width: 500px;
+    background-color: lightgrey;
+    display: flex;
+}
+
+#container div {
+    height: 200px;
+    width: 200px;
+}
+
+
+/* flex-grow */
+
+
+/* #div1 {
+    background-color: cyan; */
+
+
+/* adjust the containers such that they occupy the remaining spaces */
+
+
+/* flex-grow: 1; */
+
+
+/* flex-grow: 4; */
+
+
+/*(4/ 5 th space) */
+
+
+/* } */
+
+
+/* #div2 {
+    background-color: red;
+    flex-grow: 1; */
+
+
+/*(1/ 5 th space)*/
+
+
+/* } */
+
+
+/* total containers are two so if flex grow is 1 for both so 1 / 2 space will
+be occupied by every div */
+
+
+/* flex shrink */
+
+#div1 {
+    background-color: cyan;
+}

@@ -1,0 +1,22 @@
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+#name-of-section {
+    height: 100px;
+    text-align: center;
+}
+
+#contact-form {
+    display: flex;
+    padding: 0px 100px;
+}
+
+.element {
+    margin: 0 80px;
+}
+
+#contact-form-fill {
+    margin-top: 16px;
+}

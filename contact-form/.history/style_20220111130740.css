@@ -1,0 +1,104 @@
+section {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient( 50deg, #2857a4 0%, #403066 74%);
+    color: white;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 0.868em;
+}
+
+#name-of-section {
+    height: 100px;
+    text-align: center;
+    font-size: 40px;
+    margin: 40px;
+    margin-top: 70px;
+}
+
+#contact-form {
+    display: flex;
+    padding: 0px 50px;
+    margin: 0px 50px;
+}
+
+.element {
+    margin: 0 50px;
+    margin-bottom: 20px;
+}
+
+#contact-form-fill {
+    margin-top: 24px;
+}
+
+input {
+    width: 100%;
+}
+
+input,
+textarea {
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+    margin-bottom: 25px;
+    width: 100%;
+    /* margin-top: 8px; */
+    font-size: 1em;
+    line-height: 2rem;
+}
+
+button {
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 8px;
+    margin-left: 38%;
+    font-weight: 550;
+    margin-top: 15px;
+}
+
+#get-in-touch-contain {
+    width: 55%;
+}
+
+.heading {
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    font-size: 1.1rem;
+}
+
+.element {
+    margin-bottom: 50px;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+button:hover {
+    background-color: white;
+    color: #2857a4;
+}
+
+i {
+    color: white;
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+#my-contact-details-of {
+    font-size: 1rem;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 30px;
+    font-size: 18px;
+}
+
+li:hover {
+    transition: all 0.5s ease-in-out;
+}

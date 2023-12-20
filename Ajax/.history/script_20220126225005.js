@@ -1,0 +1,1 @@
+$('#fetch-dog-image-button').click(fetchRandomDogImage);

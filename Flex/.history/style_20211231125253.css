@@ -1,0 +1,11 @@
+#container {
+    height: 75vh;
+    width: 75vw;
+    background-color: lightgrey;
+    display: flex;
+}
+
+#container div {
+    height: 200px;
+    width: 200px;
+}

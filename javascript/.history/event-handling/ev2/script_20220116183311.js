@@ -1,0 +1,1 @@
+var outerDiv = document.getElementById('outer');

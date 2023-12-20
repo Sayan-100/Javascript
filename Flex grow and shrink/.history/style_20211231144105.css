@@ -1,0 +1,11 @@
+#container {
+    height: 500px;
+    width: 500px;
+    background-color: lightgrey;
+    display: flex;
+}
+
+#container div {
+    height: 200px;
+    width: 200px;
+}

@@ -1,0 +1,17 @@
+#div1 {
+    height: 100px;
+    /* width: 50%; */
+    width: 100px;
+    /* size drops to a certain limit  */
+    min-width: 150px;
+    /* size will be maximum to the mentioned */
+    max-width: 250px;
+    /* min-height
+    max-height:  */
+    background-color: cyan;
+    border: 2px solid blue;
+    /* overflow:visible; */
+    overflow: hidden;
+    /* overflow: scroll; */
+    /* overflow: auto; */
+}

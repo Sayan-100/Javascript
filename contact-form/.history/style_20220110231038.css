@@ -1,0 +1,22 @@
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+#name-of-section {
+    height: 100px;
+    text-align: center;
+}
+
+#contact-form {
+    display: flex;
+    padding: 0px 100px;
+}
+
+#my-co {
+    /* text-align: left; */
+}
+
+section div {
+    margin 1150px;
+}

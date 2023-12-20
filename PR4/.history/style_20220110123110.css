@@ -1,0 +1,37 @@
+section div {
+    height: 200px;
+    width: 200px;
+}
+
+#div1 {
+    background-color: aqua;
+}
+
+#div2 {
+    background-color: yellow;
+}
+
+#div3 {
+    background-color: blue;
+}
+
+#div4 {
+    background-color: green;
+}
+
+#div5 {
+    background-color: grey;
+}
+
+#div6 {
+    background-color: maroon;
+}
+
+#container {
+    display: flex;
+    height: 400px;
+    width: 100%;
+    justify-content: space-around;
+    background-color: lightblue;
+    flex-wrap: wrap;
+}
